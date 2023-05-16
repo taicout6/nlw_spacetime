@@ -1,5 +1,5 @@
 const styles = {
-  color: '#f00'
+  color: '#f00',
 }
 
 interface ButtonProps {
@@ -7,9 +7,5 @@ interface ButtonProps {
 }
 
 export function Button(props: ButtonProps) {
-  return (
-    <p style={ styles }>
-      { props.title }
-    </p>
-  )
+  return <p style={styles}>{props.title}</p>
 }
